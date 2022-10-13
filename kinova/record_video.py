@@ -12,7 +12,7 @@ front_writer = cv2.VideoWriter('demo_front4.avi',
                             cv2.VideoWriter_fourcc(*'MJPG'),
                             30, (1920, 1080))
 
-side_vid = cv2.VideoCapture(13)
+side_vid = cv2.VideoCapture(2)
 side_vid.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
 side_vid.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
 
